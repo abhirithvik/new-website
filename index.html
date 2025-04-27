@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e2f4a1b94e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    
+</head>
+<body>
+<div id="header">
+    <div class = "container">
+        <nav>
+            <img src="image/profile.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#PhDresearch">PhD Research</a></li>
+                <li><a href="#visa">Visa & Job Support</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div id="Home"></div>
+        <div class="header-text">
+            <h1>
+              Welcome to <span class="highlight">DevMatrixLab</span>
+            </h1>
+            <p>
+              Where innovation meets execution.We power your <span class="emphasis">PhD journey</span> with expert <span class="emphasis">guidance,</span><span class="emphasis">research strategy,</span>and <span class="emphasis">publishing support</span>.<br>
+              Simplify your <span class="emphasis">global visa process</span> with personalized, end-to-end assistance.Build smart, scalable <span class="emphasis">software projects</span><br>
+              with cuting-edge technologies.Your trusted partner for success in <span class="emphasis">research</span>, <span class="emphasis">travel</span>, and <span class="emphasis">technology</span>.
+              And also trusted by <span class="emphasis">scholars,</span><span class="emphasis">startups,</span> and <span class="emphasis">global dreamers</span>across industries.<br>
+              Let's unlock your potential and shape your success-together.
+            </p>
+<!---------------------------------------------------------------slider--------------------------------------------------->
+
+          </style>
+          </head>
+          
+          <body>
+            <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <title>Quest PhD Slider</title>
+          
+            <!-- Swiper CSS -->
+            <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+          
+            <style>
+              html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100%;
+}
+
+.slider-container {
+  width: 80vw; /* Full width for all screen sizes */
+  height: 50vh; /* Adjust height to be more dynamic */
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* <-- This is the important addition */
+  position: relative;
+  flex-direction: column; /* optional, keeps text in a column */
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: white;
+  text-align: center;
+  max-width: 90%;
+  animation: fadeIn 1.2s ease;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin: 0 0 10px;
+}
+
+.content h2 {
+  font-size: 2.8rem;
+  color: #ff6600;
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .slider-container {
+    height: 45vh; /* Adjust for tablets */
+  }
+
+  .content h2 {
+    font-size: 2.5rem; /* Adjust heading size */
+  }
+
+  .content p {
+    font-size: 1rem; /* Adjust text for tablet */
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-container {
+    height: 40vh; /* Adjust for mobile */
+  }
+
+  .content h2 {
+    font-size: 2rem; /* Adjust heading size */
+  }
+
+  .content p {
+    font-size: 0.9rem; /* Adjust text for mobile */
+  }
+}
+            </style>
+          </head>
+          
+          <body>
+            <div class="slider-container">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <!-- Slide 1 -->
+                  <div class="swiper-slide" style="background-image: url('image/phd1.jpg')">
+                    <div class="overlay"></div>
+                    <div class="content">
+                      <p>Your Pathway to PhD Excellence</p>
+                      <h2>PhD & Research Support</h2>
+                    </div>
+                  </div>
+          
+                  <!-- Slide 2 -->
+                  <div class="swiper-slide" style="background-image: url('image/visa1.jpg')">
+                    <div class="overlay"></div>
+                    <div class="content">
+                      <p>Step-by-Step Assistance for Global Scholars</p>
+                      <h2>Visa Process Guidance</h2>
+                    </div>
+                  </div>
+          
+                  <!-- Slide 3 -->
+                  <div class="swiper-slide" style="background-image: url('image/projects1.jpg')">
+                    <div class="overlay"></div>
+                    <div class="content">
+                      <p>From Ideation to Execution</p>
+                      <h2>Academic & Technical Projects</h2>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Navigation & Pagination -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+
+          
+          
+            <!-- Swiper JS -->
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+          
+            <script>
+              const swiper = new Swiper('.swiper', {
+                loop: true,
+                autoplay: {
+                  delay: 4000,
+                  disableOnInteraction: false,
+                },
+                pagination: {
+                  el: '.swiper-pagination',
+                  clickable: true,
+                },
+                navigation: {
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+                },
+              });
+            </script>
+          </body>
+          </html>
+<!-------------------------------------------chatbot---------------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chatbot</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <style>
+    .chatbot-popup {
+  position: fixed;
+  bottom: 80px;
+  right: 30px;
+  width: 350px;
+  background: #f4f4fc;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: sans-serif;
+  z-index: 9999;
+}
+
+.chat-header {
+  background: #6b4eff;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chat-header i {
+  background: white;
+  color: #6b4eff;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.chat-body {
+  padding: 15px;
+  height: 300px;
+  overflow-y: auto;
+  background: white;
+}
+
+.chat-footer {
+  display: flex;
+  border-top: 1px solid #eee;
+  background: #fff;
+}
+
+.chat-footer input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+
+.chat-footer button {
+  background: transparent;
+  color: #6b4eff;
+  border: none;
+  font-size: 20px;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.chat-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  background: #6b4eff;
+  border-radius: 50%;
+  color: white;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.bot-msg, .user-msg {
+  max-width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.bot-msg {
+  background: #51799a;
+  text-align: left;
+}
+
+.user-msg {
+  background: #6b4eff;
+  color: white;
+  margin-left: auto;
+  text-align: right;
+}
+
+.typing {
+  font-style: italic;
+  color: #888;
+}
+
+/* Responsive Media Queries */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .chatbot-popup {
+    width: 300px;
+  }
+  
+  .chat-footer input {
+    font-size: 14px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .chatbot-popup {
+    width: 250px;
+    bottom: 70px; /* Move the chatbot up a bit */
+  }
+
+  .chat-header {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .chat-body {
+    height: 250px;
+  }
+
+  .chat-footer input {
+    font-size: 14px;
+  }
+
+  .chat-footer button {
+    font-size: 18px;
+  }
+
+  .chat-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+  }
+}
+  </style>
+</head>
+<body>
+
+<div class="chat-icon" onclick="toggleChat()">
+  <i class="fa-solid fa-robot"></i>
+</div>
+
+<div class="chatbot-popup" id="chatbot">
+  <div class="chat-header">
+    <i class="fa-solid fa-robot"></i> Chatbot
+  </div>
+  <div class="chat-body" id="chat-body">
+    <div class="bot-msg">Hey there 👋<br>what is your name?</div>
+  </div>
+  <div class="chat-footer">
+    <input type="text" id="user-input" placeholder="Message..." />
+    <button onclick="sendMessage()">➤</button>
+  </div>
+</div>
+
+<script>
+  let stage = 0;
+  let userData = { Name: '', Phone: '', Email: '' };
+  let inactivityTimer;
+
+  function toggleChat() {
+    const chatbot = document.getElementById("chatbot");
+    chatbot.style.display = chatbot.style.display === "flex" ? "none" : "flex";
+    chatbot.style.flexDirection = "column";
+    resetInactivityTimer();
+  }
+
+  function closeChat() {
+    document.getElementById("chatbot").style.display = "none";
+  }
+
+  function resetInactivityTimer() {
+    clearTimeout(inactivityTimer);
+    inactivityTimer = setTimeout(() => {
+      if (!userData.name && !userData.phone && !userData.email) {
+        closeChat();
+      }
+    }, 10000);
+  }
+
+  window.addEventListener('scroll', closeChat);
+
+  function sendMessage() {
+    const input = document.getElementById("user-input");
+    const chatBody = document.getElementById("chat-body");
+    const message = input.value.trim();
+    if (!message) return;
+
+    chatBody.innerHTML += `<div class="user-msg">${message}</div>`;
+    input.value = '';
+    chatBody.scrollTop = chatBody.scrollHeight;
+    resetInactivityTimer();
+
+    showTypingIndicator();
+
+    setTimeout(() => {
+      hideTypingIndicator();
+      let response = '';
+      if (stage === 0) {
+        userData.name = message;
+        response = `Nice to meet you, ${message}! fill the contact details of yours, to get more information about us`;
+        stage++;
+      } else if (stage === 1) {
+        userData.phone = message;
+        response = `Thanks! Lastly, where are you from?`;
+        stage++;
+      } else if (stage === 2) {
+        userData.email = message;
+        response = `Perfect, ${userData.name}! How can I assist you today? (e.g., FAQs, book appointment)`;
+        stage++;
+        sendToBackend(userData);
+      } else {
+        response = getBotReply(message);
+      }
+
+      chatBody.innerHTML += `<div class="bot-msg">${response}</div>`;
+      chatBody.scrollTop = chatBody.scrollHeight;
+    }, 800);
+  }
+
+  function showTypingIndicator() {
+    const chatBody = document.getElementById("chat-body");
+    const typingDiv = document.createElement("div");
+    typingDiv.className = "bot-msg typing";
+    typingDiv.id = "typing";
+    typingDiv.textContent = "Typing...";
+    chatBody.appendChild(typingDiv);
+    chatBody.scrollTop = chatBody.scrollHeight;
+  }
+
+  function hideTypingIndicator() {
+    const typingDiv = document.getElementById("typing");
+    if (typingDiv) typingDiv.remove();
+  }
+
+  function getBotReply(msg) {
+    msg = msg.toLowerCase();
+    if (msg.includes("visa")) {
+      return "Sure! Our visa process includes profile evaluation, document preparation, and interview guidance.";
+    }
+    if (msg.includes("faq")) {
+      return "You can ask about our PhD programs, visa support, or projects.";
+    }
+    if (msg.includes("phd program")) {
+      return "Our PhD programs offer specialized research opportunities in various fields. You can inquire about program details, admission requirements, scholarships, and more!";
+    }
+    if (msg.includes("visa support")) {
+      return "We provide comprehensive visa support, including guidance on application procedures, required documents, and timelines. Feel free to ask about specific countries or types of visas!";
+    }
+    if (msg.includes("projects")) {
+      return "We offer a variety of research and professional projects that can help enhance your academic and career prospects. You can inquire about project opportunities, collaboration details, and how they align with your PhD research interests!";
+    }
+    if (msg.includes("appointment")) {
+      return "Visit our appointment page or tell me your preferred date/time!";
+    }
+
+    if (msg.match(/\d{2}\/\d{2}\/\d{4}/) || msg.match(/\d{4}-\d{2}-\d{2}/)) {
+           // Assuming date format is dd/mm/yyyy or yyyy-mm-dd
+      return "We will check the availability for your requested date/time. Otherwise, please contact our team through this number: [Insert Contact Number].";
+    }
+    if (msg.includes("ha") || msg.includes("okay") || msg.includes("ok")) {
+      return "Thanks for contacting DevMatrixLab, have a nice day!";
+    }
+    return "I'm not sure about that. Our team will contact you shortly!";
+    return "please submit your contact details, our experts will contact you shortly";
+
+  }
+
+  function sendToBackend(data) {
+    fetch("https://script.google.com/macros/s/AKfycbycIsjd5x974OxwcKJsKyEgsTPwMw5Tk7b9e7Uf7YLRbwLuJdtlXzZxzw2rxXo8Z7BxTw/exec", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data)
+    })
+    .then(res => res.json())
+    .then(res => console.log("Saved to backend:", res))
+    .catch(err => console.error("Error saving:", err));
+  }
+</script>
+
+</body>
+</html>
+
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+<section id="about">
+  <div class="container">
+      <h2>About Us</h2>
+      <p>
+          At <span class="highlight">DevMatrixLab</span>, we specialize in delivering expert support across three core domains:
+          <strong>PhD research guidance</strong>, <strong>global visa consultancy</strong>, and <strong>custom software development</strong>.
+      </p>
+      <p>
+          We've helped numerous PhD scholars streamline their research journeys with strategic planning, technical writing,
+          and high-impact publications. Our visa experts have assisted clients in successfully navigating the complex
+          procedures of studying, working, or relocating abroad.
+      </p>
+      <p>
+          On the technology front, we've built scalable, secure, and cutting-edge solutions — from academic tools to
+          business applications — tailored to the needs of startups and institutions.
+      </p>
+      <p>
+          Whether you're a scholar, a startup, or a global dreamer — <strong>we're here to unlock your potential</strong>.
+      </p>
+  </div>
+</section>
+<!-- ----------------about------------- -->
+<div class="about-tabs">
+  <div class="tab-buttons">
+    <button class="tab-btn active" onclick="showTab('legacy')">Our Legacy</button>
+    <button class="tab-btn" onclick="showTab('team')">Our Team</button>
+    <button class="tab-btn" onclick="showTab('industry')">Our Place in the Industry</button>
+  </div>
+
+  <div class="tab-content">
+    <div id="legacy" class="tab-box active">
+      <h3>Our Legacy</h3>
+      <p>For over a decade, DevMatrixLab has been a trusted name in academic and tech consulting.<br>
+        We began with a mission to support PhD scholars in achieving publication excellence.<br>
+        Over time, our reach expanded across borders, enabling smoother global visa processes.<br>
+        We’ve developed hundreds of successful software projects tailored for startups and students.<br>
+        Our commitment to quality and personalized guidance sets us apart in every field we serve.<br>
+        Thousands of scholars have trusted our research support and writing expertise.<br>
+        Our deep knowledge of university formats and international journals ensures precision.<br>
+        We combine innovation with care, bringing real solutions to real-world academic and tech challenges.<br>
+        After 10 years, our legacy is built on results, relationships, and relentless improvement.<br>
+        And today, we continue to grow — empowering visionaries, scholars, and dreamers around the world.</p>
+    </div>
+
+    <div id="team" class="tab-box">
+      <h3>Our Team</h3>
+      <p>Our team is the heartbeat of DevMatrixLab — a blend of minds from research, tech, and global services.<br>
+        We consist of PhD mentors, research analysts, software engineers, and visa consultants.<br>
+        Each member brings years of experience and a deep commitment to excellence.<br>
+        Our PhD experts guide scholars with clarity, structure, and academic precision.<br>
+        Developers build scalable, intelligent solutions with the latest technologies.<br>
+        Visa advisors streamline global journeys with accuracy and empathy.<br>
+        Collaboration is our core — every project is a team-driven success.<br>
+        We believe in continuous learning, innovation, and staying ahead of the curve.<br>
+        Trust, transparency, and teamwork are the values that shape our culture.<br>
+        Together, we deliver results that matter — with passion and purpose in every step.</p>
+    </div>
+
+    <div id="industry" class="tab-box">
+      <h3>Our Place in the Industry</h3>
+      <p>DevMatrixLab stands at the intersection of academia, innovation, and global services.<br>
+        We're recognized for bridging the gap between research challenges and real-world solutions.<br>
+        In the academic space, we’ve earned a strong reputation for PhD support and publication success.<br>
+        Our software solutions are trusted by startups and students alike for reliability and scalability.<br>
+        In the visa consulting sector, we bring clarity, personalization, and high approval rates.<br>
+        Our multi-domain approach makes us a one-stop solution for scholars, dreamers, and builders.<br>
+        We operate with global insight, yet retain a deeply personalized local touch.<br>
+        Through consistency and credibility, we’ve become a trusted partner in diverse industries.<br>
+        As demand for expert guidance grows, our name continues to gain recognition worldwide.<br>
+        DevMatrixLab is not just a service provider — we’re a catalyst for success stories.</p>
+    </div>
+  </div>
+</div>
+<!-- --------------services -------------- -->
+<div id="Services">
+  <div class="container">
+    <h1 class="sub-title">Our Services</h1>
+    <div class="services-list">
+
+      <div class="service-card">
+        <i class="fa-solid fa-book star-icon"></i>
+        <h3>PhD Research & Publishing</h3>
+        <p>
+          Expert guidance from topic selection to final publication. Structured writing, formatting, and submission support.
+        </p>
+        <div class="more-text hidden">
+          <p>
+            We provide end-to-end PhD research services including proposal writing, literature reviews, data analysis (SPSS, R, Python), journal selection, and publication assistance in Scopus/Web of Science journals. Our team ensures 100% plagiarism-free content, proper citations, and adherence to university or journal guidelines.
+          </p>
+        </div>
+        <a href="#" class="read-more" onclick="toggleMore(event, this)">Read more</a>
+      </div>
+
+      <div class="service-card">
+        <i class="fa-brands fa-cc-visa star-icon"></i>
+        <h3>Global Visa Assistance</h3>
+        <p>
+          Personalized visa consulting for students, researchers, and professionals — with end-to-end documentation support.
+        </p>
+        <div class="more-text hidden">
+          <p>
+            We assist with student visas, work permits, dependent visas, and visitor visas for countries like the US, UK, Canada, Australia, Germany, and more. Our services include document verification, financial planning, interview preparation, and embassy scheduling — all tailored to increase your success rate.
+          </p>
+        </div>
+        <a href="#" class="read-more" onclick="toggleMore(event, this)">Read more</a>
+      </div>
+
+      <div class="service-card">
+        <i class="fa-solid fa-code star-icon"></i>
+        <h3>Software Projects</h3>
+        <p>
+          Smart and scalable web/app development tailored for academia, startups, and enterprise use cases.
+        </p>
+        <div class="more-text hidden">
+          <p>
+            We offer full-cycle software development — from planning and UI/UX design to backend architecture and deployment. Technologies we use include Python, React, Java, Node.js, and Flutter. Projects include academic portals, e-commerce platforms, AI/ML integrations, and custom automation tools.
+          </p>
+        </div>
+        <a href="#" class="read-more" onclick="toggleMore(event, this)">Read more</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- JS to toggle "Read more" -->
+<script>
+  function toggleMore(event, element) {
+    event.preventDefault();
+    const moreText = element.previousElementSibling;
+    moreText.classList.toggle('hidden');
+    moreText.classList.toggle('visible');
+
+    element.textContent = moreText.classList.contains('visible') ? 'Read less' : 'Read more';
+  }
+</script>
+
+
+
+
+
+
+<!-- ----------- Why Choose Us ----------- -->
+<section id="why-choose-us">
+  <div class="container">
+    <h1 class="sub-title">Why Choose <span class="highlight">DevMatrixLab</span>?</h1>
+    <div class="choose-us-content">
+
+      <div class="choose-box">
+        <i class="fas fa-user-graduate"></i>
+        <h3>PhD Expertise You Can Trust</h3>
+        <p>Our PhD mentors and academic writers ensure precise, plagiarism-free, and publication-ready content that meets university and journal standards.
+        We offer guidance from synopsis to final defense.
+        Our team stays updated with the latest academic formats and publication protocols.
+        You'll receive personalized mentorship to stay on track and confident through your journey.</p>
+      </div>
+
+      <div class="choose-box">
+        <i class="fas fa-globe"></i>
+        <h3>Global Visa Success</h3>
+        <p>We’ve helped thousands with seamless visa approvals. From documentation to interview prep — we’ve got you covered across 10+ countries.
+        Our expert consultants handle both student and work visa processes.
+        We ensure all paperwork is accurate, timely, and policy-compliant.
+        Your journey abroad starts smoothly with our full-cycle visa planning.</p>
+      </div>
+
+      <div class="choose-box">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Smart Tech Solutions</h3>
+        <p>We build scalable, secure, and future-ready software for startups, researchers, and enterprises using the latest tech stacks.
+        From idea validation to deployment, we walk with you.
+        Our agile development approach ensures continuous updates and innovation.
+        We specialize in AI/ML integration, web/mobile apps, and cloud services.</p>
+      </div>
+
+      <div class="choose-box">
+        <i class="fas fa-star"></i>
+        <h3>10+ Years of Experience</h3>
+        <p>A decade of results, relationships, and relentless improvement. Our legacy is built on trust, innovation, and transformation.
+        We've served clients across academia, tech, and consulting industries.
+        Our seasoned team brings real-world insights and best practices.
+        We constantly adapt to changing global trends and technologies.</p>
+      </div>
+
+      <div class="choose-box">
+        <i class="fas fa-headset"></i>
+        <h3>End-to-End Support</h3>
+        <p>Whether it's research queries, visa doubts, or project planning — our support team is always available to guide you.
+        We provide prompt responses through email, chat, and phone.
+        Our customer success team ensures every client feels heard and supported.
+        You're never alone — our experts are with you at every milestone.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- -------------portfolio------------ -->
+<div id="Portfolio">
+  <div class="container">
+    <h1 class="sub-title">Our work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="image/work5.jpg" alt="Impactful Publications">
+        <div class="layer">
+          <h3>Impactful Publications</h3>
+          <p>Explore how our scholars publish in SCI, Scopus, IEEE, and Springer journals globally.</p>
+          <a href="publication.html" class="read-more-btn">&#8594;</a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="image/work4.jpg" alt="Visa Assistance">
+        <div class="layer">
+          <h3>Global Visa Assistance</h3>
+          <p>Over 5,000+ student, work & dependent visas processed with expert support.</p>
+          <a href="visa-details.html" class="read-more-btn">&#8594;</a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="image/work6.jpg" alt="Software Projects">
+        <div class="layer">
+          <h3>Software Projects</h3>
+          <p>Custom solutions for PhD, startups, and enterprises using smart, scalable tech.</p>
+          <a href="projects-details.html" class="read-more-btn">&#8594;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ----------- more our services --------- -->
+<div id="PhDresearch"></div>
+<h2>PhD Research</h2>
+
+<div class="services-grid">
+
+  <!-- 1. Admission Assistance -->
+  <a href="/services/admission-assistance.html" class="service-card">
+    <div class="card-content">
+      <img src="image/admissions.jpg">
+      <div class="service-title">Admission Assistance</div>
+    </div>
+    <div class="service-hover-info">
+      We offer expert support for PhD admissions in top universities across the globe.
+      Our team helps you with profile evaluation and university shortlisting.
+      We assist in preparing strong Statements of Purpose (SOP), Letters of Recommendation (LOR), and CVs.
+      We guide you through the complete application process, ensuring timely submissions.
+      With our assistance, you improve your chances of getting admitted to your dream university.
+    </div>
+  </a>
+
+  <!-- 2. Topic & Base Selection -->
+  <a href="/services/topic-selection.html" class="service-card">
+    <div class="card-content">
+      <img src="image/topic.jpg">
+      <div class="service-title">Topic & Base Selection</div>
+    </div>
+    <div class="service-hover-info">
+      Choosing the right research topic is crucial for a successful PhD journey.
+      We help you identify innovative, trending, and research-worthy topics in your domain.
+      Our experts ensure the topic has sufficient scope for in-depth analysis and publication.
+      We provide a strong theoretical and practical base for your research direction.
+      This service aligns your interests with academic significance and future opportunities.
+    </div>
+  </a>
+
+  <!-- 3. Thesis Writing -->
+  <a href="/services/thesis-writing.html" class="service-card">
+    <div class="card-content">
+      <img src="image/thesis.jpg">
+      <div class="service-title">Thesis Writing</div>
+    </div>
+    <div class="service-hover-info">
+      Our professional thesis writing service ensures high-quality, original content tailored to your field.
+      We follow proper academic structure, referencing styles, and university guidelines.
+      Each chapter is developed with logical flow, critical analysis, and strong arguments.
+      We work closely with you to reflect your research ideas and contributions effectively.
+      Plagiarism-free and well-formatted, our thesis drafts are ready for submission.
+    </div>
+  </a>
+
+  <!-- 4. Proofreading & Editing -->
+  <a href="/services/proofreading.html" class="service-card">
+    <div class="card-content">
+      <img src="image/editig.jpg">
+      <div class="service-title">Proofreading & Editing</div>
+    </div>
+    <div class="service-hover-info">
+      Our proofreading and editing service enhances the clarity, coherence, and academic tone of your writing.
+      We correct grammatical, spelling, and punctuation errors to ensure a polished manuscript.
+      Our experts improve sentence structure, flow, and logical consistency across chapters.
+      We align your content with formatting, citation, and university guidelines.
+      Receive a refined, publication-ready document that reflects your research excellence.
+    </div>
+  </a>
+
+  <!-- 5. Synopsis Writing -->
+  <a href="/services/synopsis-writing.html" class="service-card">
+    <div class="card-content">
+      <img src="image/synopsis.jpg">
+      <div class="service-title">Synopsis Writing</div>
+    </div>
+    <div class="service-hover-info">
+      Our synopsis writing service presents a concise, compelling overview of your proposed research.
+      We clearly define your research objectives, problem statement, and methodology.
+      The synopsis is crafted to highlight the significance, feasibility, and originality of your study.
+      We ensure alignment with university guidelines and review committee expectations.
+      Receive a well-structured, persuasive document that lays a strong foundation for your research approval.
+    </div>
+  </a>
+
+  <!-- 6. Literature Review Writing -->
+  <a href="/services/literature-review.html" class="service-card">
+    <div class="card-content">
+      <img src="image/literature.jpg">
+      <div class="service-title">Literature Review Writing</div>
+    </div>
+    <div class="service-hover-info">
+      Our literature review writing service provides a comprehensive analysis of existing research in your field.
+      We critically evaluate key studies, highlight research gaps, and establish a strong theoretical framework.
+      The review is structured to support your research objectives and justify your study’s relevance.
+      Our experts ensure academic rigor, proper citations, and coherence throughout the chapter.
+      Receive a well-referenced, insightful literature review that strengthens your thesis foundation.
+    </div>
+  </a>
+
+  <!-- 7. Research Proposal -->
+  <a href="/services/research-proposal.html" class="service-card">
+    <div class="card-content">
+      <img src="image/research.png">
+      <div class="service-title">Research Proposal</div>
+    </div>
+    <div class="service-hover-info">
+      Our research proposal writing service presents a clear and persuasive plan for your intended study.
+      We define the research problem, objectives, methodology, and expected outcomes with precision.
+      The proposal is tailored to meet university standards and funding body requirements.
+      Our experts ensure logical flow, academic tone, and strong justification for your research direction.
+      Submit a professionally crafted proposal that enhances your chances of approval and support.
+    </div>
+  </a>
+
+  <!-- 8. Scopus/SCI Paper Writing -->
+  <a href="/services/scopus-writing.html" class="service-card">
+    <div class="card-content">
+      <img src="image/scopus.jpg">
+      <div class="service-title">Scopus/SCI Paper Writing</div>
+    </div>
+    <div class="service-hover-info">
+      Our Scopus/SCI paper writing service helps you craft high-impact research papers for top-tier journals.
+      We focus on originality, technical depth, and compliance with journal scope and formatting standards.
+      Each paper is written with strong arguments, critical analysis, and clear research contributions.
+      Our experts ensure proper referencing, academic language, and adherence to publication ethics.
+      Increase your chances of acceptance with a publication-ready manuscript tailored for Scopus/SCI indexing.
+    </div>
+  </a>
+
+  <!-- 9. Journal Publication -->
+  <a href="/services/journal-publication.html" class="service-card">
+    <div class="card-content">
+      <img src="image/publication.jpg">
+      <div class="service-title">Journal Publication</div>
+    </div>
+    <div class="service-hover-info">
+      Our journal publication support service guides you through the entire submission and publication process.
+      We help you select suitable journals based on your research scope, indexing, and impact factor.
+      From manuscript formatting to cover letter preparation, we ensure all submission requirements are met.
+      We handle reviewer comments and revisions to improve your chances of acceptance.
+      Publish confidently with our end-to-end assistance tailored for Scopus, SCI, and other reputed journals.
+    </div>
+  </a>
+
+</div>
+<!-- -----------visa process ----- ---- -->
+<div id="visa"></div>
+<h2>Visa & Job Support</h2>
+
+  <div class="services-grid">
+
+    <!-- 1 -->
+    <div class="service-card">
+      <div class="card-content">
+        <img src="image/visaprocess.jpg" alt="Visa Process">
+        <div class="service-title">Visa Process Assistance</div>
+      </div>
+      <div class="service-hover-info">
+        Complete guidance through the student visa application process tailored to your destination country.
+        Support for collecting and organizing academic, financial, and identity documents.
+        Assistance in accurate form filling, embassy guidelines, and error-free submissions.
+        Interview prep with expert coaching and documentation practice.
+        Constant updates on embassy policies and application tracking.
+        End-to-end support until visa approval is secured.
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="service-card">
+      <div class="card-content">
+        <img src="image/travel.jpg" alt="Travel Support">
+        <div class="service-title">Travel & Accommodation</div>
+      </div>
+      <div class="service-hover-info">
+        Support with booking flights aligned to university joining dates.
+        Help choosing student-friendly and safe housing options near your institution.
+        Guidance on arrival procedures, pickup options, currency, and communication setup.
+        Packing checklist and local transportation assistance.
+        Smooth onboarding and move-in experience post-arrival.
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="service-card">
+      <div class="card-content">
+        <img src="image/post.jpg" alt="Post Arrival">
+        <div class="service-title">Post-Arrival Support</div>
+      </div>
+      <div class="service-hover-info">
+        Assistance with bank account setup, local ID registration, and sim card activation.
+        Guidance on university registration, medical insurance, and navigating your new city.
+        Introduction to student networks, helpline numbers, and local safety.
+        Orientation for first-week routines and essential resources.
+      </div>
+    </div>
+
+    <!-- 4 -->
+    <div class="service-card">
+      <div class="card-content">
+        <img src="image/work.jpg" alt="Job Visa">
+        <div class="service-title">Job Visa Assistance</div>
+      </div>
+      <div class="service-hover-info">
+        We assist in converting your student visa into a job-seeking or work permit visa.
+        Help with collecting employment contracts, employer letters, and application documents.
+        Support with online and offline job visa application procedures.
+        Guidance on resume localization, job search strategies, and networking in your country of study.
+        Stay updated on job visa quotas, timelines, and regional rules.
+      </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="service-card">
+      <div class="card-content">
+        <img src="image/pr.jpg" alt="PR Guidance">
+        <div class="service-title">PR (Residency) Guidance</div>
+      </div>
+      <div class="service-hover-info">
+        We help eligible students transition from temporary visas to permanent residency.
+        Evaluation of your profile, experience, and stay period for PR eligibility.
+        Help with forms, points calculation, documentation, and submission.
+        Guidance on language tests, medical exams, and background verification.
+        Ongoing updates on immigration rules and personalized immigration strategy.
+      </div>
+    </div>
+
+  </div>
+<!-------------------------------- projects---------------------------------------->
+<div id="projects"></div>
+<h2>Our Innovative Projects</h2>
+<div class="services-grid">
+  <!-- 1 -->
+  <div class="service-card">
+    <div class="card-content">
+      <img src="image/phd.project.jpg" alt="PhD Genius">
+      <div class="service-title">PhD Genius Platform</div>
+    </div>
+    <div class="service-hover-info">
+      A smart SaaS platform to manage your PhD journey.  
+      Offers AI-based topic assistance, research timelines, and task tracking.  
+      Includes literature review tools and collaboration features.  
+      Built for scholars to boost productivity and stay organized.
+    </div>
+  </div>
+
+  <!-- 2 -->
+  <div class="service-card">
+    <div class="card-content">
+      <img src="image/visaautomation.project.jpg" alt="VisaMaster">
+      <div class="service-title">VisaMaster Automation</div>
+    </div>
+    <div class="service-hover-info">
+      Automates the entire visa process from start to finish.  
+      Includes document uploads, embassy updates, and reminders.  
+      Smart scheduling for interviews and notifications.  
+      Simplifies global travel for students and professionals.
+    </div>
+  </div>
+
+  <!-- 3 -->
+  <div class="service-card">
+    <div class="card-content">
+      <img src="image/match.project.jpg" alt="Research Match">
+      <div class="service-title">Global Research Matchmaking</div>
+    </div>
+    <div class="service-hover-info">
+      Matches students with professors and universities worldwide.  
+      Uses research interest, region, and publication history.  
+      Makes collaboration and admissions simpler and faster.  
+      Great for those seeking tailored PhD or research guidance.
+    </div>
+  </div>
+
+  <!-- 4 -->
+  <div class="service-card">
+    <div class="card-content">
+      <img src="image/block.project.jpg" alt="Publishing Blockchain">
+      <div class="service-title">Blockchain Publishing</div>
+    </div>
+    <div class="service-hover-info">
+      Uses blockchain to secure your research originality.  
+      Time-stamps drafts to avoid plagiarism and duplicate claims.  
+      Verifies authorship across global platforms.  
+      Trusted method to safeguard academic integrity.
+    </div>
+  </div>
+
+  <!-- 5 -->
+  <div class="service-card">
+    <div class="card-content">
+      <img src="image/ai.project.jpg" alt="Academic AI">
+      <div class="service-title">AI-Powered Academic Advisor</div>
+    </div>
+    <div class="service-hover-info">
+      A 24/7 AI chatbot trained on academic and visa knowledge.  
+      Answers student queries related to research, writing, or immigration.  
+      Built-in support for forms, references, and policies.  
+      Always available, reliable, and fast.
+    </div>
+  </div>
+
+  <!-- 6 -->
+  <div class="service-card">
+    <div class="card-content">
+      <img src="image/global.project.jpg" alt="Scholar Job Portal">
+      <div class="service-title">Global Scholar Job Portal</div>
+    </div>
+    <div class="service-hover-info">
+      A job portal made for scholars, postgrads, and researchers.  
+      Focuses on global jobs, internships, and academic roles.  
+      Features AI resume reviews and personalized job matches.  
+      Empowers scholars to step into industry or academia.
+    </div>
+  </div>
+</div>
+<!---------------------------------- scroller------------------------------>
+<section class="counter-section">
+  <div class="counter-grid">
+    <div class="counter-card">
+      <i class="fa-solid fa-bookmark"></i>
+      <div class="counter-number" data-target="500">1</div>
+      <p>Ph.D Awarded</p>
+    </div>
+    <div class="counter-card">
+      <i class="fa-solid fa-person"></i>
+      <div class="counter-number" data-target="128">1</div>
+      <p>Ph.D Mentors</p>
+    </div>
+    <div class="counter-card">
+      <i class="fa-solid fa-graduation-cap"></i>
+      <div class="counter-number" data-target="1000">1</div>
+      <p>Students Enrolled</p>
+    </div>
+    <div class="counter-card">
+      <i class="fa-solid fa-book-open"></i>
+      <div class="counter-number" data-target="30">1</div>
+      <p>Departments</p>
+    </div>
+  </div>
+</section>
+<!------------------------------------------------faq--------------------------------------------------------->
+<section id="faq">
+  <div class="container">
+    <h2>Frequently Asked Questions (FAQs)</h2>
+    <p class="subtitle">Clear Your Doubts About PhD Support, Visa Consultancy & Projects</p>
+
+    <div class="faq-columns">
+
+      <!-- Column 1: PhD Support -->
+      <div class="faq-column">
+        <ul>
+          <li>
+            <strong>Can DevMatrixLab help write my PhD thesis?</strong><br>
+            Yes, we offer guidance, writing support, and publication assistance for PhD research.
+          </li>
+          <li>
+            <strong>How much does PhD research support cost?</strong><br>
+            Pricing depends on topic, complexity, timeline, and services required. Contact us for a quote.
+          </li>
+          <li>
+            <strong>Do you provide editing and proofreading?</strong><br>
+            Absolutely! We ensure your thesis is polished, technically sound, and ready for submission.
+          </li>
+        </ul>
+      </div>
+
+      <!-- Column 2: Visa Consultancy -->
+      <div class="faq-column">
+        <ul>
+          <li>
+            <strong>What visa services does DevMatrixLab offer?</strong><br>
+            We help with study, work, and immigration visas including documentation and interview prep.
+          </li>
+          <li>
+            <strong>Can you assist with university applications?</strong><br>
+            Yes, we guide students from shortlisting to admission to successful visa approval.
+          </li>
+          <li>
+            <strong>What countries do you support?</strong><br>
+            We cover top destinations like the USA, UK, Canada, Australia, Germany, and more.
+          </li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Software Projects -->
+      <div class="faq-column">
+        <ul>
+          <li>
+            <strong>What kind of software projects do you build?</strong><br>
+            We develop academic tools, business apps, portals, and AI-based platforms.
+          </li>
+          <li>
+            <strong>Do you offer custom software solutions?</strong><br>
+            Yes, all our software is tailored to your goals, whether for research or business.
+          </li>
+          <li>
+            <strong>Can I see project demos?</strong><br>
+            Sure! Reach out to us and we’ll walk you through some of our previous work.
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- -----------contact------------- -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Us</h1>
+        <p><i class="fas fa-paper-plane"></i> abhiram939265@gmail.com</p>
+        <p><i class="fas fa-phone-square-alt"></i> 9640075131</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+          <a href="https://www.instagram.com/devmatrixlab?utm_source=qr&igsh=MWdtODdkbnZnYmN2cA== "><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="text" name="Number" placeholder="Your Number" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <p>Copyright © DevMatrixLab.</p>
+  </div>
+
+  <a href="https://wa.me/919640075131" target="_blank" class="whatsapp-float">
+    <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp">
+  </a>
+</div>
+<!-- -------------------------------- footer---------------------------------------->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section about">
+      <img src="image/profile.jpg" alt="DevMatrixLab Logo" class="footer-logo">
+      <p>
+        DevMatrixLab is a unit of DevMatrix Technologies, founded in Hyderabad in 2015.
+        We’ve supported 500+ PhD candidates with expert research and publication guidance.
+        Our services span PhD support, global visa consultancy, and software development.
+        We work with scholars, startups, and professionals across various domains.
+        Meetings can be scheduled daily between 9:00 AM and 9:00 PM at our office.
+      </p>
+      <div class="socials">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-section links">
+      <h2>LINKS</h2>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#abroad">Abroad</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section support">
+      <h2>SUPPORT</h2>
+      <p><i class="fas fa-envelope"></i> abhiram939265@gmail.com</p>
+      <p><i class="fas fa-phone-alt"></i> 9640075131</p>
+      <p><i class="fas fa-mobile-alt"></i> 7993318467</p>
+    </div>
+
+    <div class="footer-section address">
+      <h2>ADDRESS</h2>
+      <p><i class="fas fa-map-marker-alt"></i> OFFICE 1:<br>
+      2nd Floor, Opposite Metro Elevator, JNTU Metro Station, Hyderabad, Telangana-500074</p>
+
+      <p><i class="fas fa-map-marker-alt"></i> OFFICE 2:<br>
+      Shop No. 11, 4th Floor, CV Complex, SH19 above Bata Showroom, Padmavathi Nagar, Laxmi Narashima Puram Colony, Hastinapuram, Hyderabad, Telangana 500079 India</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© Copyright 2019. All Rights Reserved By <span class="brand-yellow">DevMatrixLab</span></p>
+    <div class="footer-bottom-links">
+      <a href="#">TERMS OF USER</a> | <a href="#">LICENSE</a> | <a href="#">SUPPORT</a>
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+   
+</div>
+<script>
+  function showTab(tabId) {
+    const tabs = document.querySelectorAll('.tab-box');
+    const buttons = document.querySelectorAll('.tab-btn');
+
+    tabs.forEach(tab => {
+      tab.classList.remove('active');
+    });
+
+    buttons.forEach(btn => {
+      btn.classList.remove('active');
+    });
+
+    document.getElementById(tabId).classList.add('active');
+    event.target.classList.add('active');
+}
+
+<!-- JS to toggle "Read more" -->
+
+  function toggleExclusive(event, clickedLink) {
+    event.preventDefault();
+
+    // Get the current card that was clicked
+    const currentCard = clickedLink.closest('.service-card');
+
+    // Find the more-text inside this card
+    const moreText = currentCard.querySelector('.more-text');
+
+    // Collapse all other cards
+    document.querySelectorAll('.service-card').forEach(card => {
+      const text = card.querySelector('.more-text');
+      const link = card.querySelector('.read-more');
+
+      if (card !== currentCard) {
+        text.classList.add('hidden');
+        text.classList.remove('visible');
+        link.textContent = 'Read more';
+      }
+    });
+
+    // Toggle this card
+    const isHidden = moreText.classList.contains('hidden');
+    if (isHidden) {
+      moreText.classList.remove('hidden');
+      moreText.classList.add('visible');
+      clickedLink.textContent = 'Read less';
+    } else {
+      moreText.classList.add('hidden');
+      moreText.classList.remove('visible');
+      clickedLink.textContent = 'Read more';
+    }
+}
+/*---------------------------------scoller-------------------*/
+  const counters = document.querySelectorAll('.counter-number');
+
+  counters.forEach(counter => {
+    const updateCount = () => {
+      const target = +counter.getAttribute('data-target');
+      let count = +counter.innerText;
+
+      const increment = Math.ceil(target / 80); // Speed
+
+      if (count < target) {
+        counter.innerText = count + increment;
+        setTimeout(updateCount, 30);
+      } else {
+        counter.innerText = target;
+      }
+    };
+
+    updateCount();
+  });
+/*----------------------------------------------------*/
+  
+  var sidemeu = document.getElementById("sidemenu");
+  function openmenu(){
+    sidemeu.style.right = "0";
+  }
+  function closemenu(){
+    sidemeu.style.right = "-200px";
+  }
+
+ 
+
+
+
+
+
+
+
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycby1h2tOBqV_b_YJ0Bk92pDJzEb06dNfZ_Y02WE5-6UdqmE6yh13SJYi07AMdeIFdjSe/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
